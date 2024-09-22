@@ -251,6 +251,9 @@ button {
   gap: 24px;
 }
 .social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   padding: 12px;
   display: block;
@@ -263,7 +266,7 @@ button {
   background-color: #404bbf;
 }
 .worker {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-el {
   display: flex;
